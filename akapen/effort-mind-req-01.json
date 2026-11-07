@@ -1,0 +1,122 @@
+{
+ "label": "effort-mind-req-01",
+ "title": "effort-mind 要件：意識することの整理と卒業",
+ "conclusion": "格ゲーとスノボで「意識すること」をスマホに貯め、試合の合間やリフトの上で「意識中」の項目だけをすぐ見返せるアプリを、Androidスマホで使う前提で作る案です。今回は、分類の方法・意識中の上限・卒業の決め方・作り方の4点を決めます。",
+ "overview": "overview",
+ "figures": {
+  "overview": {
+   "steps": [
+    "タグ絞込",
+    "意識中を表示",
+    "卒業",
+    "オフライン"
+   ],
+   "caption": "図0 — 決める4点（分類・意識中の上限・卒業・作り方）"
+  },
+  "tagA": {
+   "html": "<div style=\"width:220px;border:2px solid #333;border-radius:18px;padding:10px;font-size:12px;background:#fff;line-height:1.5\"><b>練習前：絞り込み</b><br><span style=\"display:inline-block;border:1px solid #DC2626;color:#DC2626;border-radius:10px;padding:0 6px;margin:1px\">スト6</span><span style=\"display:inline-block;border:1px solid #DC2626;color:#DC2626;border-radius:10px;padding:0 6px;margin:1px\">ケン</span><span style=\"display:inline-block;border:1px solid #DC2626;color:#DC2626;border-radius:10px;padding:0 6px;margin:1px\">対ルーク</span><span style=\"display:inline-block;border:1px solid #999;color:#333;border-radius:10px;padding:0 6px;margin:1px\">対空</span><span style=\"display:inline-block;border:1px solid #999;color:#333;border-radius:10px;padding:0 6px;margin:1px\">起き攻め</span><hr><div style=\"border-bottom:1px solid #ddd;padding:4px 0\">● 対空は昇竜を早めに<br><span style=\"color:#777\">スト6 / 対空</span></div><div style=\"border-bottom:1px solid #ddd;padding:4px 0\">● ルークの飛びは引きガード<br><span style=\"color:#777\">スト6 / 対ルーク</span></div><div style=\"color:#DC2626\">1つの項目に複数のタグ</div></div>",
+   "caption": "図1A — タグを組み合わせて絞る（予想図）"
+  },
+  "tagB": {
+   "html": "<div style=\"width:220px;border:2px solid #333;border-radius:18px;padding:10px;font-size:12px;background:#fff;line-height:1.5\"><b>スト6 › ケン › 対ルーク</b><br><span style=\"color:#777\">フォルダを順にたどる</span><hr><div style=\"border-bottom:1px solid #ddd;padding:4px 0\">● ルークの飛びは引きガード<br><span style=\"color:#777\"></span></div><div style=\"color:#DC2626\">「対空」のような全キャラ共通の項目は<br>キャラごとに重複して登録する</div></div>",
+   "caption": "図1B — 階層フォルダでたどる（予想図）"
+  },
+  "limA": {
+   "html": "<div style=\"width:220px;border:2px solid #333;border-radius:18px;padding:10px;font-size:12px;background:#fff;line-height:1.5\"><b>意識中 3/3</b><div style=\"border-bottom:1px solid #ddd;padding:4px 0\">● 対空は昇竜を早めに<br><span style=\"color:#777\"></span></div><div style=\"border-bottom:1px solid #ddd;padding:4px 0\">● 投げ抜けを入れ込む<br><span style=\"color:#777\"></span></div><div style=\"border-bottom:1px solid #ddd;padding:4px 0\">● ゲージを残す<br><span style=\"color:#777\"></span></div><div style=\"border:1px dashed #DC2626;color:#DC2626;padding:4px;margin-top:4px\">新しく追加するには<br>どれか1つをストックへ戻す</div></div>",
+   "caption": "図2A — 上限3つ（予想図）"
+  },
+  "limB": {
+   "html": "<div style=\"width:220px;border:2px solid #333;border-radius:18px;padding:10px;font-size:12px;background:#fff;line-height:1.5\"><b>意識中 7</b><div style=\"border-bottom:1px solid #ddd;padding:4px 0\">● 対空は昇竜を早めに<br><span style=\"color:#777\"></span></div><div style=\"border-bottom:1px solid #ddd;padding:4px 0\">● 投げ抜けを入れ込む<br><span style=\"color:#777\"></span></div><div style=\"border-bottom:1px solid #ddd;padding:4px 0\">● ゲージを残す<br><span style=\"color:#777\"></span></div><div style=\"border-bottom:1px solid #ddd;padding:4px 0\">● …あと4件<br><span style=\"color:#777\"></span></div><div style=\"color:#DC2626\">上限なし。多すぎると<br>一目で読み切れない</div></div>",
+   "caption": "図2B — 上限なし（予想図）"
+  }
+ },
+ "questions": [
+  {
+   "title": "意識することをどう分類する？",
+   "visual": true,
+   "evidence": "会話での回答：格ゲーは「すべての単位」（ゲーム・キャラ・相手キャラ・場面）、スノボは技ごとに分けたい",
+   "recommended": "A",
+   "options": [
+    {
+     "value": "A",
+     "label": "タグを複数つける",
+     "figure": "tagA",
+     "benefit": "「対空」のような共通項目を1回書けば、どのキャラで絞っても出る",
+     "cost": "タグが増えると選ぶ手間が増える。一覧の並びが決まった形にならない"
+    },
+    {
+     "value": "B",
+     "label": "階層フォルダ",
+     "figure": "tagB",
+     "benefit": "ゲーム→キャラ→相手と、たどる順が決まっていて迷わない",
+     "cost": "共通の項目をキャラごとに重複して書く必要がある"
+    }
+   ]
+  },
+  {
+   "title": "「意識中」の数に上限を設ける？",
+   "visual": true,
+   "evidence": "会話での回答：新しいことを意識すると前のことを忘れるのが課題。意識するものを絞る機能が欲しい。初期値3は「一目で読み切れる量」としての仮置き",
+   "recommended": "A",
+   "options": [
+    {
+     "value": "A",
+     "label": "上限あり（初期値3、設定で変更可）",
+     "figure": "limA",
+     "benefit": "試合の合間やリフトの上でも一目で読み切れる量に保てる",
+     "cost": "追加するたびに、どれをストックへ戻すか選ぶ手間がある"
+    },
+    {
+     "value": "B",
+     "label": "上限なし",
+     "figure": "limB",
+     "benefit": "思いついたらすぐ意識中に入れられる",
+     "cost": "増えすぎて読み切れず、前に意識していたことを忘れる問題が再発しやすい"
+    }
+   ]
+  },
+  {
+   "title": "「卒業」はどう決める？",
+   "evidence": "会話での回答：身についたものを卒業させたい。判断方法は未定",
+   "recommended": "A",
+   "options": [
+    {
+     "value": "A",
+     "label": "自分で手動で卒業",
+     "benefit": "最小の機能で作れる。自分の感覚で決められる",
+     "cost": "本当に身についたかの記録が残らない",
+     "description": "項目の詳細画面で［卒業］を押すと、卒業一覧へ移る"
+    },
+    {
+     "value": "B",
+     "label": "練習ごとに○×を記録し、一定回数○で卒業を提案",
+     "benefit": "上達の記録が残り、卒業の根拠がはっきりする",
+     "cost": "練習ごとに振り返る手間と画面が増え、最初のスコープが広がる",
+     "description": "練習の終わりに意識中の各項目へ○×を付ける振り返り画面を追加。○が一定回数続くと卒業を提案する"
+    }
+   ]
+  },
+  {
+   "title": "どの作り方で作る？",
+   "evidence": "会話での回答：Android、まずは自分だけで使う。オフライン動作が必須だが、どちらの案でも満たせる。差が出るのは手軽さと、将来の端末機能",
+   "recommended": "A",
+   "options": [
+    {
+     "value": "A",
+     "label": "Webアプリ（PWA）",
+     "description": "ブラウザで動き、ホーム画面に追加してアプリのように使えるWebアプリ",
+     "benefit": "ストア登録が不要で、すぐに作って試せる。オフラインでも動かせる",
+     "cost": "ウィジェットやロック画面表示など、Android固有の機能は使えない"
+    },
+    {
+     "value": "B",
+     "label": "ネイティブアプリ（Kotlin / Flutter）",
+     "benefit": "将来ウィジェットやロック画面に意識中を出せる",
+     "cost": "開発環境の準備とビルドに手間がかかる",
+     "description": "Android端末に直接インストールするアプリ。アプリ内の画面は両案で同じにできる"
+    }
+   ]
+  }
+ ],
+ "body_file": "body.html"
+}
