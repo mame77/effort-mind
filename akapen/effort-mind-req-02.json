@@ -1,0 +1,132 @@
+{
+ "label": "effort-mind-req-02",
+ "title": "effort-mind 要件（第2稿）：フォルダと記録の細部",
+ "conclusion": "第1稿の回答で、階層フォルダ・上限3・○×記録・Webアプリに決まりました。第2稿では、フォルダをまたぐ共通項目の扱い、上限の範囲、○×の付け方、データの保存先の4点を決めます。",
+ "overview": "overview",
+ "figures": {
+  "overview": {
+   "steps": [
+    "フォルダを開く",
+    "意識中を見る",
+    "○×を付ける",
+    "卒業を提案"
+   ],
+   "caption": "図0 — 第2稿で決める流れ（共通項目・上限の範囲・記録の付け方・保存先）"
+  },
+  "inhA": {
+   "html": "<div style=\"width:230px;border:2px solid #333;border-radius:18px;padding:10px;font-size:12px;background:#fff;line-height:1.5\"><b>スト6 › ケン › 対ルーク</b><hr><div style=\"border-bottom:1px solid #ddd;padding:4px 0;\">● ルークの飛びは引きガード<br><span style=\"color:#777\">対ルーク</span></div><div style=\"border-bottom:1px solid #ddd;padding:4px 0;color:#DC2626\">● 対空は昇竜を早めに<br><span style=\"color:#777\">↑ スト6 に書いた項目</span></div><div style=\"border-bottom:1px solid #ddd;padding:4px 0;color:#DC2626\">● ゲージを残す<br><span style=\"color:#777\">↑ ケン に書いた項目</span></div></div>",
+   "caption": "図1A — 上のフォルダの項目も一緒に表示（予想図）"
+  },
+  "inhB": {
+   "html": "<div style=\"width:230px;border:2px solid #333;border-radius:18px;padding:10px;font-size:12px;background:#fff;line-height:1.5\"><b>スト6 › ケン › 対ルーク</b><hr><div style=\"border-bottom:1px solid #ddd;padding:4px 0;\">● ルークの飛びは引きガード<br><span style=\"color:#777\">対ルーク</span></div><div style=\"color:#DC2626\">「対空」を見るには<br>スト6フォルダへ戻るか、<br>ここにも同じ項目を書く</div></div>",
+   "caption": "図1B — 開いたフォルダの項目だけ表示（予想図）"
+  },
+  "limA": {
+   "html": "<div style=\"width:230px;border:2px solid #333;border-radius:18px;padding:10px;font-size:12px;background:#fff;line-height:1.5\"><b>意識中 3/3（全体）</b><div style=\"border-bottom:1px solid #ddd;padding:4px 0;\">● 対空は昇竜を早めに<br><span style=\"color:#777\">スト6</span></div><div style=\"border-bottom:1px solid #ddd;padding:4px 0;\">● ルークの飛びは引きガード<br><span style=\"color:#777\">対ルーク</span></div><div style=\"border-bottom:1px solid #ddd;padding:4px 0;\">● 目線を進行方向へ<br><span style=\"color:#777\">スノボ › カービング</span></div><div style=\"color:#DC2626\">格ゲーとスノボで合わせて3つ</div></div>",
+   "caption": "図2A — アプリ全体で3つ（予想図）"
+  },
+  "limB": {
+   "html": "<div style=\"width:230px;border:2px solid #333;border-radius:18px;padding:10px;font-size:12px;background:#fff;line-height:1.5\"><b>スト6 › ケン 意識中 3/3</b><div style=\"border-bottom:1px solid #ddd;padding:4px 0;\">● 対空は昇竜を早めに<br><span style=\"color:#777\"></span></div><div style=\"border-bottom:1px solid #ddd;padding:4px 0;\">● ゲージを残す<br><span style=\"color:#777\"></span></div><div style=\"border-bottom:1px solid #ddd;padding:4px 0;\">● 投げ抜けを入れ込む<br><span style=\"color:#777\"></span></div><div style=\"color:#DC2626\">スノボ › カービング にも別に3つ</div></div>",
+   "caption": "図2B — フォルダごとに3つ（予想図）"
+  },
+  "recA": {
+   "html": "<div style=\"width:230px;border:2px solid #333;border-radius:18px;padding:10px;font-size:12px;background:#fff;line-height:1.5\"><b>練習中：スト6 › ケン</b>　<span style=\"display:inline-block;border:1px solid #333;border-radius:6px;padding:0 8px;margin:2px\">練習を終える</span><hr><b>振り返り</b><div style=\"border-bottom:1px solid #ddd;padding:4px 0;\">● 対空は昇竜を早めに<br><span style=\"color:#777\"></span></div><span style=\"display:inline-block;border:1px solid #333;border-radius:6px;padding:0 8px;margin:2px\">○</span><span style=\"display:inline-block;border:1px solid #333;border-radius:6px;padding:0 8px;margin:2px\">×</span><div style=\"border-bottom:1px solid #ddd;padding:4px 0;\">● ゲージを残す<br><span style=\"color:#777\"></span></div><span style=\"display:inline-block;border:1px solid #333;border-radius:6px;padding:0 8px;margin:2px\">○</span><span style=\"display:inline-block;border:1px solid #333;border-radius:6px;padding:0 8px;margin:2px\">×</span><div style=\"color:#DC2626\">終わりにまとめて付ける</div></div>",
+   "caption": "図3A — 練習の開始と終了を記録し、終了時にまとめて○×（予想図）"
+  },
+  "recB": {
+   "html": "<div style=\"width:230px;border:2px solid #333;border-radius:18px;padding:10px;font-size:12px;background:#fff;line-height:1.5\"><b>スト6 › ケン</b><hr><div style=\"border-bottom:1px solid #ddd;padding:4px 0;\">● 対空は昇竜を早めに<br><span style=\"color:#777\">○3 ×1</span></div><span style=\"display:inline-block;border:1px solid #333;border-radius:6px;padding:0 8px;margin:2px\">○</span><span style=\"display:inline-block;border:1px solid #333;border-radius:6px;padding:0 8px;margin:2px\">×</span><div style=\"border-bottom:1px solid #ddd;padding:4px 0;\">● ゲージを残す<br><span style=\"color:#777\">○1 ×2</span></div><span style=\"display:inline-block;border:1px solid #333;border-radius:6px;padding:0 8px;margin:2px\">○</span><span style=\"display:inline-block;border:1px solid #333;border-radius:6px;padding:0 8px;margin:2px\">×</span><div style=\"color:#DC2626\">試合の合間にいつでも押す</div></div>",
+   "caption": "図3B — 項目ごとにいつでも○×（予想図）"
+  }
+ },
+ "body_file": "body-02.html",
+ "questions": [
+  {
+   "title": "全キャラ共通の項目をどう扱う？",
+   "visual": true,
+   "evidence": "第1稿の回答：Q1で階層フォルダを選択。第1稿で挙げた代償「共通の項目をキャラごとに重複して書く」が未解決",
+   "recommended": "A",
+   "options": [
+    {
+     "value": "A",
+     "label": "上のフォルダの項目も表示",
+     "figure": "inhA",
+     "benefit": "「対空」はスト6フォルダに1回書けば、どのキャラ・相手を開いても出る",
+     "cost": "開いたフォルダに無い項目も並ぶので、どこに書いた項目か表示で見分ける必要がある"
+    },
+    {
+     "value": "B",
+     "label": "開いたフォルダの項目だけ",
+     "figure": "inhB",
+     "benefit": "表示が単純で、どこに書いたかを迷わない",
+     "cost": "共通の項目は同じ内容を何か所にも書くか、上のフォルダへ戻って見る"
+    }
+   ]
+  },
+  {
+   "title": "意識中の上限3は、どの範囲で数える？",
+   "visual": true,
+   "evidence": "第1稿の回答：Q2で上限あり・初期値3を選択。格ゲーとスノボの両方で使う（会話での回答）",
+   "recommended": "B",
+   "options": [
+    {
+     "value": "A",
+     "label": "アプリ全体で3つ",
+     "figure": "limA",
+     "benefit": "今の自分が意識していることが常に3つだけになり、迷わない",
+     "cost": "スノボに行く日に、格ゲーの意識中をストックへ戻す手間がある"
+    },
+    {
+     "value": "B",
+     "label": "フォルダごとに3つ",
+     "figure": "limB",
+     "benefit": "スノボに行く日も、格ゲーの意識中を入れ替えずに済む",
+     "cost": "Q1で「上のフォルダの項目も表示」を選ぶと、1画面に3つより多く並ぶことがある"
+    }
+   ]
+  },
+  {
+   "title": "○×はいつ付ける？",
+   "visual": true,
+   "evidence": "第1稿の回答：Q3で○×記録と卒業の提案を選択。試合の合間とリフトの上で見る（会話での回答）",
+   "recommended": "B",
+   "options": [
+    {
+     "value": "A",
+     "label": "練習の終わりにまとめて",
+     "figure": "recA",
+     "benefit": "練習1回ごとの記録になり、「5回の練習で連続○」のように数えやすい",
+     "cost": "開始と終了の操作が必要。終了を押し忘れると記録が残らない",
+     "description": "練習を始めるときに［練習を始める］、終わるときに［練習を終える］を押し、終了時の振り返り画面で○×を付ける"
+    },
+    {
+     "value": "B",
+     "label": "いつでも項目ごとに",
+     "figure": "recB",
+     "benefit": "試合が終わった直後、リフトに乗ったときなど、思い出した瞬間に1タップで付けられる",
+     "cost": "1回の練習中に何度も押せるので、卒業の基準は練習の回数ではなく押した回数で数える（例：直近10回中8回○）"
+    }
+   ]
+  },
+  {
+   "title": "データをどこに保存する？",
+   "evidence": "第1稿の回答：Q4で「Androidは考えない、Webアプリがいい」。リフトの上は電波が弱いことがある（会話での回答）",
+   "recommended": "A",
+   "options": [
+    {
+     "value": "A",
+     "label": "使っている端末のブラウザ内だけ",
+     "description": "ログインもサーバーも無し。データをファイルに書き出し、別の端末で読み込めば移せる",
+     "benefit": "すぐ作れて、電波が無くても確実に動く。費用もかからない",
+     "cost": "スマホとPCで自動では同じ内容にならない。ブラウザのデータを消すと消える"
+    },
+    {
+     "value": "B",
+     "label": "サーバーに保存して端末間で同期",
+     "description": "ログインし、電波が戻ったときに自動で同期する",
+     "benefit": "スマホでもPCでも同じ内容を見られる。機種変更でも消えない",
+     "cost": "ログインとサーバーが必要になり、作る量と運用の手間が大きく増える"
+    }
+   ]
+  }
+ ]
+}

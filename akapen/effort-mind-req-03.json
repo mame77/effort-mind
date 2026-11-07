@@ -1,0 +1,101 @@
+{
+ "label": "effort-mind-req-03",
+ "title": "effort-mind 要件（第3稿）：今意識する3つの選び方",
+ "conclusion": "第2稿の回答で、フォルダごとに3つを目立たせ、ほかの項目も見られるようにすることに決まりました。第3稿では、3つの選び方、ほかの項目の見せ方、卒業を提案する基準の3点を決めます。",
+ "overview": "overview",
+ "figures": {
+  "overview": {
+   "steps": [
+    "3つを選ぶ",
+    "残りを見る",
+    "○×を付ける",
+    "卒業を提案"
+   ],
+   "caption": "図0 — 第3稿で決める3点（3つの選び方・残りの見せ方・卒業の基準）"
+  },
+  "selA": {
+   "html": "<div style=\"width:230px;border:2px solid #333;border-radius:18px;padding:10px;font-size:12px;background:#fff;line-height:1.5\"><b>対ルーク：項目の一覧</b><div style=\"border-bottom:1px solid #ddd;padding:4px 0;\">● ★ ルークの飛びは引きガード<br><span style=\"color:#777\"></span></div><div style=\"border-bottom:1px solid #ddd;padding:4px 0;\">● ★ 対空は昇竜を早めに<br><span style=\"color:#777\"></span></div><div style=\"border-bottom:1px solid #ddd;padding:4px 0;\">● ★ ゲージを残す<br><span style=\"color:#777\"></span></div><div style=\"border-bottom:1px solid #ddd;padding:4px 0;color:#999;\">● ☆ 投げ抜けを入れ込む<br><span style=\"color:#777\"></span></div><div style=\"color:#DC2626\">★を付けた3項目が「今意識する3つ」になる</div></div>",
+   "caption": "図1A — 自分で☆を付けて選ぶ（予想図）"
+  },
+  "selB": {
+   "html": "<div style=\"width:230px;border:2px solid #333;border-radius:18px;padding:10px;font-size:12px;background:#fff;line-height:1.5\"><b>スト6 › ケン › 対ルーク</b><div style=\"font-weight:bold;margin-top:4px\">今意識する3つ</div><div style=\"border-bottom:1px solid #ddd;padding:4px 0;\">● ルークの飛びは引きガード<br><span style=\"color:#777\"></span></div><div style=\"border-bottom:1px solid #ddd;padding:4px 0;\">● 対空は昇竜を早めに<br><span style=\"color:#777\">（スト6 フォルダに書いた項目）</span></div><div style=\"border-bottom:1px solid #ddd;padding:4px 0;\">● ゲージを残す<br><span style=\"color:#777\">（ケン フォルダに書いた項目）</span></div><div style=\"color:#DC2626\">直近10回で×が多い3項目を自動で選ぶ<br>項目を長押しして［入れ替え］で手動でも選べる</div></div>",
+   "caption": "図1B — アプリが自動で選び、手動でも入れ替えられる（予想図）"
+  },
+  "restA": {
+   "html": "<div style=\"width:230px;border:2px solid #333;border-radius:18px;padding:10px;font-size:12px;background:#fff;line-height:1.5\"><b>スト6 › ケン › 対ルーク</b><div style=\"font-weight:bold;margin-top:4px\">今意識する3つ</div><div style=\"border-bottom:1px solid #ddd;padding:4px 0;\">● ルークの飛びは引きガード<br><span style=\"color:#777\"></span></div><div style=\"border-bottom:1px solid #ddd;padding:4px 0;\">● 対空は昇竜を早めに<br><span style=\"color:#777\">（スト6 フォルダに書いた項目）</span></div><div style=\"border-bottom:1px solid #ddd;padding:4px 0;\">● ゲージを残す<br><span style=\"color:#777\">（ケン フォルダに書いた項目）</span></div><div style=\"color:#DC2626;border:1px dashed #DC2626;padding:3px;margin-top:4px\">▸ ほかの項目 4件（押すと開く）</div></div>",
+   "caption": "図2A — 残りは畳んでおく（予想図）"
+  },
+  "restB": {
+   "html": "<div style=\"width:230px;border:2px solid #333;border-radius:18px;padding:10px;font-size:12px;background:#fff;line-height:1.5\"><b>スト6 › ケン › 対ルーク</b><div style=\"font-weight:bold;margin-top:4px\">今意識する3つ</div><div style=\"border-bottom:1px solid #ddd;padding:4px 0;\">● ルークの飛びは引きガード<br><span style=\"color:#777\"></span></div><div style=\"border-bottom:1px solid #ddd;padding:4px 0;\">● 対空は昇竜を早めに<br><span style=\"color:#777\">（スト6 フォルダに書いた項目）</span></div><div style=\"border-bottom:1px solid #ddd;padding:4px 0;\">● ゲージを残す<br><span style=\"color:#777\">（ケン フォルダに書いた項目）</span></div><div style=\"font-weight:bold;margin-top:4px;color:#DC2626\">ほかの項目</div><div style=\"border-bottom:1px solid #ddd;padding:4px 0;color:#999;\">● 投げ抜けを入れ込む<br><span style=\"color:#777\"></span></div><div style=\"border-bottom:1px solid #ddd;padding:4px 0;color:#999;\">● 画面端は無理に攻めない<br><span style=\"color:#777\"></span></div><div style=\"border-bottom:1px solid #ddd;padding:4px 0;color:#999;\">● …あと2件<br><span style=\"color:#777\"></span></div></div>",
+   "caption": "図2B — 残りも薄い文字で下に並べる（予想図）"
+  }
+ },
+ "body_file": "body-03.html",
+ "questions": [
+  {
+   "title": "「今意識する3つ」は誰が選ぶ？",
+   "visual": true,
+   "evidence": "第2稿Q2の補足：「3つはピックアップしてほしいけどそれ以外もある場合は見れるようにしたい」。○×はいつでも項目ごとに付ける（第2稿Q3の回答）",
+   "recommended": "B",
+   "options": [
+    {
+     "value": "A",
+     "label": "自分で☆を付けて選ぶ",
+     "figure": "selA",
+     "benefit": "何を意識するかを自分で完全に決められる。仕組みが単純",
+     "cost": "身についた項目を★から外し忘れると、ずっと3つの枠を占める"
+    },
+    {
+     "value": "B",
+     "label": "アプリが自動で選び、手動でも入れ替えられる",
+     "figure": "selB",
+     "benefit": "直近で×が多い項目が自動で上に来るので、忘れがちなことに気づける",
+     "cost": "自動の並びが自分の感覚と合わないことがある。仕組みが少し複雑になる",
+     "description": "直近10回の○×で×が多い3項目を、フォルダを開くたびに自動で選ぶ。手動で入れ替えた項目は自動選択より優先する"
+    }
+   ]
+  },
+  {
+   "title": "3つ以外の項目はどう見せる？",
+   "visual": true,
+   "evidence": "第2稿Q2の補足：「それ以外もある場合は見れるようにしたい」。前提：試合の合間とリフトの上で見る（最初の会話での回答「試合の合間に見たい。リフトで見たい」）",
+   "recommended": "A",
+   "options": [
+    {
+     "value": "A",
+     "label": "畳んでおき、押すと開く",
+     "figure": "restA",
+     "benefit": "画面には3つだけが見え、リフトの上でも一目で読み切れる",
+     "cost": "ほかの項目を見るには1回押す必要がある"
+    },
+    {
+     "value": "B",
+     "label": "薄い文字で下に並べる",
+     "figure": "restB",
+     "benefit": "スクロールするだけで全部見られる",
+     "cost": "項目が多いと3つが埋もれ、何を意識するか迷いやすい"
+    }
+   ]
+  },
+  {
+   "title": "卒業を提案する基準の初期値は？",
+   "evidence": "第2稿Q3の回答：「いつでも項目ごとに」。基準について発案者の回答はまだ無い。私の提案として、基準は設定で変えられるようにし、ここでは初期値を決める",
+   "recommended": "A",
+   "options": [
+    {
+     "value": "A",
+     "label": "直近10回中8回○",
+     "benefit": "たまの×で振り出しに戻らない",
+     "cost": "記録が10回たまるまで卒業の提案が出ない"
+    },
+    {
+     "value": "B",
+     "label": "5回連続で○",
+     "benefit": "早く卒業の提案が出て、意識する3つが早く入れ替わる",
+     "cost": "1回の×で数え直しになり、調子の波に左右されやすい"
+    }
+   ],
+   "context": "条件を満たした項目には「卒業しますか？」の印が付き、押して確定すると卒業一覧へ移る（両案共通）"
+  }
+ ]
+}

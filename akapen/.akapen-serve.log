@@ -1,0 +1,27 @@
+07:17:32 "GET /akapen-ping HTTP/1.1" 200 -
+07:19:25 "GET / HTTP/1.1" 200 -
+07:19:25 code 404, message File not found
+07:19:25 "GET /favicon.ico HTTP/1.1" 404 -
+07:19:25 "GET /effort-mind-req-01.html HTTP/1.1" 200 -
+07:19:26 "GET /akapen-ping HTTP/1.1" 200 -
+07:21:49 answer received: effort-mind-req-01.html (268 bytes)
+07:21:49 "POST /akapen-answer HTTP/1.1" 200 -
+07:23:48 "GET /akapen-ping HTTP/1.1" 200 -
+07:30:02 "GET / HTTP/1.1" 200 -
+07:30:02 code 404, message File not found
+07:30:02 "GET /favicon.ico HTTP/1.1" 404 -
+07:30:02 "GET /effort-mind-req-02.html HTTP/1.1" 200 -
+07:30:05 "GET /akapen-ping HTTP/1.1" 200 -
+07:32:55 answer received: effort-mind-req-02.html (270 bytes)
+07:32:55 "POST /akapen-answer HTTP/1.1" 200 -
+07:34:59 "GET /akapen-ping HTTP/1.1" 200 -
+07:53:10 "GET / HTTP/1.1" 200 -
+07:53:10 code 404, message File not found
+07:53:10 "GET /favicon.ico HTTP/1.1" 404 -
+07:54:45 "GET / HTTP/1.1" 200 -
+07:54:45 code 404, message File not found
+07:54:45 "GET /favicon.ico HTTP/1.1" 404 -
+07:54:46 "GET /effort-mind-req-03.html HTTP/1.1" 200 -
+07:54:49 "GET /akapen-ping HTTP/1.1" 200 -
+07:55:35 answer received: effort-mind-req-03.html (200 bytes)
+07:55:35 "POST /akapen-answer HTTP/1.1" 200 -
